@@ -1,0 +1,51 @@
+.portfolio-container {
+    top: 35px;
+    left: 125px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.portfolio-container,
+#watercolor {
+    position: absolute;
+}
+
+#watercolor {
+    top: 43px;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 7%;
+    z-index: -1;
+}
+
+.cards {
+    margin: 2%;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px;
+    border-radius: 0;
+}
+
+.cards:hover {
+    background-color: rgba(47, 79, 79, .5);
+    color: whitesmoke;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: small;
+}
+
+.portfolio-link {
+    float: right;
+}
+

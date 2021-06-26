@@ -1,0 +1,9 @@
+.nav-links {
+    color: lightseagreen; 
+}
+
+.nav-links:hover {
+    border: 2px solid rgba(32, 178, 170, .2);
+    border-radius: 5px;
+    color:darkslategray;
+}
