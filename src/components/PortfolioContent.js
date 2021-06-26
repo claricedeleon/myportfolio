@@ -1,5 +1,4 @@
-import { Card, Button } from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import { Card } from "react-bootstrap";
 import './PortfolioContent.css';
 import Watercolor from '../images/watercolor.png';
 import Project1 from '../images/proj1.jpg';
