@@ -47,6 +47,7 @@ const PortfolioContent = () => {
                         <br />
                         <br />
                         This is yet to be deployed.
+                        <br />
                         Stay tuned.😉
                     </Card.Text>
                 </Card.Body>
@@ -58,6 +59,7 @@ const PortfolioContent = () => {
                     <Card.Title className="card-title">React RestoApp</Card.Title>
                     <Card.Text>
                         This React project allows you to add a new item on the menu and update an item from the cart using store and redux components.
+                        <br />
                         <br />
                         https://claricedeleon.github.io/restoapp/
                         <br />
@@ -91,6 +93,7 @@ const PortfolioContent = () => {
                         <br />
                         <br />
                         This is yet to be deployed.
+                        <br />
                         Stay tuned.😉
                     </Card.Text>
                 </Card.Body>
