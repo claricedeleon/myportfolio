@@ -6,7 +6,9 @@ const Navigation = () => {
         <div>
             <Nav className="justify-content-end" activeKey="/">
                 <Nav.Item>
-                    <Nav.Link className="nav-links" href="/">Home</Nav.Link>
+                    <Link to="/">
+                        <Nav.Link className="nav-links" href="/">Home</Nav.Link>
+                    </Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link className="nav-links" href="/about-me">About Me</Nav.Link>
