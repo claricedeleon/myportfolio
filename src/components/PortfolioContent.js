@@ -20,8 +20,9 @@ const PortfolioContent = () => {
                     <Card.Title className="card-title">Static Website</Card.Title>
                     <Card.Text>
                         Using HTML, CSS and some Bootstrap styling, I designed this static website for a local private resort located in Cavite.
+                        <br />
+                        https://claricedeleon.github.io/siglo-paraiso/
                     </Card.Text>
-                    <Button className="portfolio-link" variant="info"><Link to="https://claricedeleon.github.io/siglo-paraiso/" target="_blank">Check this out</Link></Button>
                 </Card.Body>
             </Card>
             <Card className="cards" style={{ width: '18rem' }}>
@@ -30,8 +31,9 @@ const PortfolioContent = () => {
                     <Card.Title className="card-title">Javascript Game</Card.Title>
                     <Card.Text>
                         This is a simple Memory Game I created using Javascript. I intend to develop more features for this game in the future.
+                        <br />
+                        https://claricedeleon.github.io/memory-game/
                     </Card.Text>
-                    <Button className="portfolio-link" variant="info">Check this out</Button>
                 </Card.Body>
             </Card>
 
@@ -41,8 +43,9 @@ const PortfolioContent = () => {
                     <Card.Title className="card-title">React Pokedex</Card.Title>
                     <Card.Text>
                         My Pokedex project was created for the intention of understanding the basics of React introducing Link and Router.
+                        <br />
+                        This is yet to be deployed.
                     </Card.Text>
-                    <Button className="portfolio-link" variant="info">Check this out</Button>
                 </Card.Body>
             </Card>
 
@@ -52,8 +55,9 @@ const PortfolioContent = () => {
                     <Card.Title className="card-title">React RestoApp</Card.Title>
                     <Card.Text>
                         This React project allows you to add a new item on the menu and update an item from the cart using store and redux components.
+                        <br />
+                        https://claricedeleon.github.io/restoapp/
                     </Card.Text>
-                    <Button className="portfolio-link" variant="info">Check this out</Button>
                 </Card.Body>
             </Card>
 
@@ -63,8 +67,9 @@ const PortfolioContent = () => {
                     <Card.Title className="card-title">React ToDoApp</Card.Title>
                     <Card.Text>
                         TodoApp is another simple project I also created using React's store and redux components.
+                        <br />
+                        https://claricedeleon.github.io/todoapp/
                     </Card.Text>
-                    <Button className="portfolio-link" variant="info">Check this out</Button>
                 </Card.Body>
             </Card>
 
@@ -74,8 +79,9 @@ const PortfolioContent = () => {
                     <Card.Title className="card-title">Full Stack App</Card.Title>
                     <Card.Text className="card-text">
                         This is my very own Sales & Inventory application I created using full (MongoDB, Express, React and Node.js) stack.
+                        <br />
+                        This is yet to be deployed.
                     </Card.Text>
-                    <Button className="portfolio-link" variant="info">Check this out</Button>
                 </Card.Body>
             </Card>
         </div>
