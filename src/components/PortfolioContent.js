@@ -1,4 +1,5 @@
 import { Card, Button } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import './PortfolioContent.css';
 import Watercolor from '../images/watercolor.png';
 import Project1 from '../images/proj1.jpg';
@@ -20,7 +21,7 @@ const PortfolioContent = () => {
                     <Card.Text>
                         Using HTML, CSS and some Bootstrap styling, I designed this static website for a local private resort located in Cavite.
                     </Card.Text>
-                    <Button className="portfolio-link" variant="info">Check this out</Button>
+                    <Button className="portfolio-link" variant="info"><Link to="https://claricedeleon.github.io/siglo-paraiso/" target="_blank">Check this out</Link></Button>
                 </Card.Body>
             </Card>
             <Card className="cards" style={{ width: '18rem' }}>
