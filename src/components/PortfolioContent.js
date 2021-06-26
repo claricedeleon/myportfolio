@@ -20,6 +20,7 @@ const PortfolioContent = () => {
                     <Card.Text>
                         Using HTML, CSS and some Bootstrap styling, I designed this static website for a local private resort located in Cavite.
                         <br />
+                        <br />
                         https://claricedeleon.github.io/siglo-paraiso/
                     </Card.Text>
                 </Card.Body>
@@ -30,6 +31,7 @@ const PortfolioContent = () => {
                     <Card.Title className="card-title">Javascript Game</Card.Title>
                     <Card.Text>
                         This is a simple Memory Game I created using Javascript. I intend to develop more features for this game in the future.
+                        <br />
                         <br />
                         https://claricedeleon.github.io/memory-game/
                     </Card.Text>
@@ -43,7 +45,9 @@ const PortfolioContent = () => {
                     <Card.Text>
                         My Pokedex project was created for the intention of understanding the basics of React introducing Link and Router.
                         <br />
+                        <br />
                         This is yet to be deployed.
+                        Stay tuned.😉
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -56,6 +60,8 @@ const PortfolioContent = () => {
                         This React project allows you to add a new item on the menu and update an item from the cart using store and redux components.
                         <br />
                         https://claricedeleon.github.io/restoapp/
+                        <br />
+                        😉
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -67,7 +73,11 @@ const PortfolioContent = () => {
                     <Card.Text>
                         TodoApp is another simple project I also created using React's store and redux components.
                         <br />
+                        <br />
                         https://claricedeleon.github.io/todoapp/
+                        <br />
+                        😉
+
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -79,7 +89,9 @@ const PortfolioContent = () => {
                     <Card.Text className="card-text">
                         This is my very own Sales & Inventory application I created using full (MongoDB, Express, React and Node.js) stack.
                         <br />
+                        <br />
                         This is yet to be deployed.
+                        Stay tuned.😉
                     </Card.Text>
                 </Card.Body>
             </Card>
